@@ -1,0 +1,56 @@
+body{
+    background: #fff url("bg.png") repeat-x fixed;
+}
+fieldset{
+	width:500px;
+	border:2px solid #FFFF00;
+	box-shadow:5px 5px 5px #FFFF00;
+}
+legend{
+	color: #5F4545;
+    text-shadow: 1px 1px 2px #FFFF00, 0 0 25px #00FF40, 0 0 5px #FFFFFF;
+    font-size:18px;
+    text-transform:uppercase;
+}
+tr,td{
+	font-weight:normal;
+}
+tr td a{
+	font-weight:normal;
+	font-size:15px;
+}
+tr td a:hover{
+	font-weight:bolder;
+	font-size:15px;
+	color:#ED7E1B;
+	text-shadow: 0 0 5px #F1A00F;
+}
+input,textarea,select{
+	border: 1px solid #DDDDDD;
+}
+tr td input:focus,textarea:focus,select:focus{
+	border: 1px solid #2370BC;
+	box-shadow: 0 0 5px #2370BC;
+}
+button {
+  margin: 0 auto;
+  font-size: 1.0rem;
+  padding: 0.10rem 1.25rem;
+  display: block;
+  background-color: #009ac9;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: normal;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #009ac9;
+  border-color: #009ac9;
+}
+
