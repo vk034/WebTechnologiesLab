@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="Student_Information.css" ?>
+<!DOCTYPE student SYSTEM "Student_Information.dtd">
+<student-info>
+	<student id="stu1">
+		<name>Kalisetty Venkatesh</name>
+		<id>N120034</id>
+		<gender>Male</gender>
+		<year>E3</year>
+		<class>ST06</class>
+		<eaa>YOGA</eaa>
+	</student>
+	<student id="stu2">
+		<name>Kalisetty Kiran Kumar</name>
+		<id>N130034</id>
+		<gender>Male</gender>
+		<year>E2</year>
+		<class>SG06</class>
+		<eaa>NSS</eaa>
+	</student>
+	<student id="stu3">
+		<name>Kalisetty Manohar</name>
+		<id>N140034</id>
+		<gender>Male</gender>
+		<year>E1</year>
+		<class>SF06</class>
+		<eaa>NCC</eaa>
+	</student>
+	<student id="stu4">
+		<name>Kalisetty Niharika</name>
+		<id>N150034</id>
+		<gender>Female</gender>
+		<year>PUC</year>
+		<class>KAPPA-1</class>
+		<eaa>DANCE</eaa>
+	</student>
+</student-info>

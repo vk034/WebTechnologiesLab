@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <welcome-file-list>
+        <welcome-file>Login.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>LoginCookieAuth</servlet-name>
+        <servlet-class>servletspkg.LoginCookieAuth</servlet-class>
+        <init-param>
+            <param-name>jyothi</param-name>
+            <param-value>sai</param-value>
+        </init-param>
+        <init-param>
+            <param-name>gopika</param-name>
+            <param-value>gopika</param-value>
+        </init-param>
+        <init-param>
+            <param-name>Divya</param-name>
+            <param-value>nnsdm</param-value>
+        </init-param>
+        <init-param>
+            <param-name>vasavi</param-name>
+            <param-value>sai</param-value>
+        </init-param>
+        <init-param>
+            <param-name>Vandu</param-name>
+            <param-value>sai</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginCookieAuth</servlet-name>
+        <url-pattern>/LoginCookieAuth</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

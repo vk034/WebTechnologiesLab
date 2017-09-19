@@ -1,0 +1,34 @@
+student{
+		display:block;
+    padding: 20px 0 20px 20px;
+    font-size: 18px;
+    background-color: bisque;
+}
+name{
+		display:block;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: blueviolet;
+}
+id{
+    display: block;
+    font-style: italic;
+    font-weight: 600;
+    color: coral;
+}
+gender{
+    display: block;
+    color: darkcyan;
+}
+year{
+    display: block;
+    color: cadetblue;
+}
+class{
+    display: block;
+    color: dimgrey;
+}
+eaa{
+    display: block;
+    color: darkslategray;
+}

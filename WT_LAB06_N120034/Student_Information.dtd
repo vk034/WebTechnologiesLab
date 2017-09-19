@@ -1,0 +1,7 @@
+<!ELEMENT student (name,id,gender,year,class,eaa)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT id(#PCDATA)>
+<!ELEMENT gender(#PCDATA)>
+<!ELEMENT year(#PCDATA)>
+<!ELEMENT class(#PCDATA)>
+<!ELEMENT eaa(#PCDATA)>
